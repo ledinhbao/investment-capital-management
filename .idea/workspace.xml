@@ -2,14 +2,42 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="450c7f83-e05f-40e7-8769-93e1aea4b553" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/fund/fund.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/investor/investor.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fund/fund.go" beforeDir="false" afterPath="$PROJECT_DIR$/fund/fund.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/investor/investor.go" beforeDir="false" afterPath="$PROJECT_DIR$/investor/investor.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="database.db" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="database.db" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+    </expand>
+    <select />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -20,6 +48,11 @@
   </component>
   <component name="GOROOT" path="C:\Users\T460S\sdk\go1.14" />
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Lê Đình-Bảo &lt;ledinhbao@me.com&gt;" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1YpVe4y5W5GVou6ikBNdi2t4Cml" />
@@ -29,8 +62,11 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="sqlite" />
     <property name="DefaultGoTemplateProperty" value="Go File" />
+    <property name="GO_FMT" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
@@ -58,6 +94,28 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="root:database.db" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="root:database.db" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="com.intellij.database.console.session.MessageBusSession@6afa0558" type="9fbbdea:ServiceModel$ServiceNode" />
+              </path>
+            </expand>
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="450c7f83-e05f-40e7-8769-93e1aea4b553" name="Default Changelist" comment="" />
@@ -66,40 +124,66 @@
       <option name="presentableId" value="Default" />
       <updated>1583639616025</updated>
     </task>
+    <task id="LOCAL-00001" summary="Add fund and investor model.">
+      <created>1583642479860</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1583642479860</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Add fund and investor model." />
+    <option name="LAST_COMMIT_MESSAGE" value="Add fund and investor model." />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="398" y="91" key="#SQL_Dialects" timestamp="1583644608029">
+      <screen x="74" y="0" width="1462" height="864" />
+    </state>
+    <state x="398" y="91" key="#SQL_Dialects/74.0.1462.864@74.0.1462.864" timestamp="1583644608029" />
+    <state x="398" y="91" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1583643762595">
+      <screen x="74" y="0" width="1462" height="864" />
+    </state>
+    <state x="398" y="91" key="#com.intellij.execution.impl.EditConfigurationsDialog/74.0.1462.864@74.0.1462.864" timestamp="1583643762595" />
     <state x="549" y="267" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1583642136917">
       <screen x="74" y="0" width="1462" height="864" />
     </state>
     <state x="549" y="267" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/74.0.1462.864@74.0.1462.864" timestamp="1583642136917" />
-    <state x="386" y="0" key="CommitChangelistDialog2" timestamp="1583640291799">
+    <state x="386" y="0" width="926" height="710" key="CommitChangelistDialog2" timestamp="1583642479004">
       <screen x="74" y="0" width="1462" height="864" />
     </state>
-    <state x="386" y="0" key="CommitChangelistDialog2/74.0.1462.864@74.0.1462.864" timestamp="1583640291799" />
-    <state x="585" y="187" key="FileChooserDialogImpl" timestamp="1583640241913">
+    <state x="386" y="0" width="926" height="710" key="CommitChangelistDialog2/74.0.1462.864@74.0.1462.864" timestamp="1583642479004" />
+    <state x="585" y="187" key="FileChooserDialogImpl" timestamp="1583644591127">
       <screen x="74" y="0" width="1462" height="864" />
     </state>
-    <state x="585" y="187" key="FileChooserDialogImpl/74.0.1462.864@74.0.1462.864" timestamp="1583640241913" />
-    <state width="709" height="203" key="GridCell.Tab.0.bottom" timestamp="1583640245343">
+    <state x="585" y="187" key="FileChooserDialogImpl/74.0.1462.864@74.0.1462.864" timestamp="1583644591127" />
+    <state width="1419" height="203" key="GridCell.Tab.0.bottom" timestamp="1583644776508">
       <screen x="74" y="0" width="1462" height="864" />
     </state>
-    <state width="709" height="203" key="GridCell.Tab.0.bottom/74.0.1462.864@74.0.1462.864" timestamp="1583640245343" />
-    <state width="709" height="203" key="GridCell.Tab.0.center" timestamp="1583640245343">
+    <state width="1419" height="203" key="GridCell.Tab.0.bottom/74.0.1462.864@74.0.1462.864" timestamp="1583644776508" />
+    <state width="1419" height="203" key="GridCell.Tab.0.center" timestamp="1583644776508">
       <screen x="74" y="0" width="1462" height="864" />
     </state>
-    <state width="709" height="203" key="GridCell.Tab.0.center/74.0.1462.864@74.0.1462.864" timestamp="1583640245343" />
-    <state width="709" height="203" key="GridCell.Tab.0.left" timestamp="1583640245343">
+    <state width="1419" height="203" key="GridCell.Tab.0.center/74.0.1462.864@74.0.1462.864" timestamp="1583644776508" />
+    <state width="1419" height="203" key="GridCell.Tab.0.left" timestamp="1583644776508">
       <screen x="74" y="0" width="1462" height="864" />
     </state>
-    <state width="709" height="203" key="GridCell.Tab.0.left/74.0.1462.864@74.0.1462.864" timestamp="1583640245343" />
-    <state width="709" height="203" key="GridCell.Tab.0.right" timestamp="1583640245343">
+    <state width="1419" height="203" key="GridCell.Tab.0.left/74.0.1462.864@74.0.1462.864" timestamp="1583644776508" />
+    <state width="1419" height="203" key="GridCell.Tab.0.right" timestamp="1583644776508">
       <screen x="74" y="0" width="1462" height="864" />
     </state>
-    <state width="709" height="203" key="GridCell.Tab.0.right/74.0.1462.864@74.0.1462.864" timestamp="1583640245343" />
+    <state width="1419" height="203" key="GridCell.Tab.0.right/74.0.1462.864@74.0.1462.864" timestamp="1583644776508" />
+    <state width="189" height="539" key="HiddenNamespacesPopup" timestamp="1583643730471">
+      <screen x="74" y="0" width="1462" height="864" />
+    </state>
+    <state width="189" height="539" key="HiddenNamespacesPopup/74.0.1462.864@74.0.1462.864" timestamp="1583643730471" />
     <state x="314" y="75" key="SettingsEditor" timestamp="1583640244749">
       <screen x="74" y="0" width="1462" height="864" />
     </state>

@@ -16,4 +16,6 @@ type Transaction struct {
 	ShareAmount uint      `json:"amount"`
 	Price       float32   `json:"price"`
 	Type        int8      `json:"type"`
+	CreatedAt   time.Time `db:"created_at" json:"created_at"`
+	UpdatedAt   time.Time `db:"updated_at" json:"updated_at"`
 }

@@ -3,6 +3,7 @@ package investor
 import "time"
 
 type Investor struct {
-	Fullname    string    `json:"fullname"`
-	DateOfBirth time.Time `json:"dob"`
+	Id          uint      `db:"id" json:"id"`
+	Fullname    string    `db:"fullname" json:"fullname"`
+	DateOfBirth time.Time `db:"dob" json:"dob"`
 }

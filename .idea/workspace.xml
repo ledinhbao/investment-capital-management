@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="450c7f83-e05f-40e7-8769-93e1aea4b553" name="Default Changelist" comment="" />
+    <list default="true" id="450c7f83-e05f-40e7-8769-93e1aea4b553" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/fund/fund.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/investor/investor.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -31,7 +35,13 @@
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
     <property name="last_opened_file_path" value="$USER_HOME$" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\T460S\Documents\Projects\investment-capital-management\fund" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="go build main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
@@ -62,26 +72,38 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1419" height="203" key="GridCell.Tab.0.bottom" timestamp="1583639736550">
+    <state x="549" y="267" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1583642136917">
       <screen x="74" y="0" width="1462" height="864" />
     </state>
-    <state width="1419" height="203" key="GridCell.Tab.0.bottom/74.0.1462.864@74.0.1462.864" timestamp="1583639736550" />
-    <state width="1419" height="203" key="GridCell.Tab.0.center" timestamp="1583639736550">
+    <state x="549" y="267" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/74.0.1462.864@74.0.1462.864" timestamp="1583642136917" />
+    <state x="386" y="0" key="CommitChangelistDialog2" timestamp="1583640291799">
       <screen x="74" y="0" width="1462" height="864" />
     </state>
-    <state width="1419" height="203" key="GridCell.Tab.0.center/74.0.1462.864@74.0.1462.864" timestamp="1583639736550" />
-    <state width="1419" height="203" key="GridCell.Tab.0.left" timestamp="1583639736549">
+    <state x="386" y="0" key="CommitChangelistDialog2/74.0.1462.864@74.0.1462.864" timestamp="1583640291799" />
+    <state x="585" y="187" key="FileChooserDialogImpl" timestamp="1583640241913">
       <screen x="74" y="0" width="1462" height="864" />
     </state>
-    <state width="1419" height="203" key="GridCell.Tab.0.left/74.0.1462.864@74.0.1462.864" timestamp="1583639736549" />
-    <state width="1419" height="203" key="GridCell.Tab.0.right" timestamp="1583639736550">
+    <state x="585" y="187" key="FileChooserDialogImpl/74.0.1462.864@74.0.1462.864" timestamp="1583640241913" />
+    <state width="709" height="203" key="GridCell.Tab.0.bottom" timestamp="1583640245343">
       <screen x="74" y="0" width="1462" height="864" />
     </state>
-    <state width="1419" height="203" key="GridCell.Tab.0.right/74.0.1462.864@74.0.1462.864" timestamp="1583639736550" />
-    <state x="314" y="75" key="SettingsEditor" timestamp="1583640005447">
+    <state width="709" height="203" key="GridCell.Tab.0.bottom/74.0.1462.864@74.0.1462.864" timestamp="1583640245343" />
+    <state width="709" height="203" key="GridCell.Tab.0.center" timestamp="1583640245343">
       <screen x="74" y="0" width="1462" height="864" />
     </state>
-    <state x="314" y="75" key="SettingsEditor/74.0.1462.864@74.0.1462.864" timestamp="1583640005447" />
+    <state width="709" height="203" key="GridCell.Tab.0.center/74.0.1462.864@74.0.1462.864" timestamp="1583640245343" />
+    <state width="709" height="203" key="GridCell.Tab.0.left" timestamp="1583640245343">
+      <screen x="74" y="0" width="1462" height="864" />
+    </state>
+    <state width="709" height="203" key="GridCell.Tab.0.left/74.0.1462.864@74.0.1462.864" timestamp="1583640245343" />
+    <state width="709" height="203" key="GridCell.Tab.0.right" timestamp="1583640245343">
+      <screen x="74" y="0" width="1462" height="864" />
+    </state>
+    <state width="709" height="203" key="GridCell.Tab.0.right/74.0.1462.864@74.0.1462.864" timestamp="1583640245343" />
+    <state x="314" y="75" key="SettingsEditor" timestamp="1583640244749">
+      <screen x="74" y="0" width="1462" height="864" />
+    </state>
+    <state x="314" y="75" key="SettingsEditor/74.0.1462.864@74.0.1462.864" timestamp="1583640244749" />
     <state x="614" y="344" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1583639728372">
       <screen x="74" y="0" width="1462" height="864" />
     </state>
